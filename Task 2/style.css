@@ -1,0 +1,14 @@
+img.favorites-img {
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: 100px auto;
+    filter: grayscale();
+    transition: all 5s;
+}
+
+img.favorites-img:hover {
+    scale: 2;
+    filter: none;
+    transition: all 5s;
+}
