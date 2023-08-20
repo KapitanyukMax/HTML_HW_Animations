@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.loader-container {
+    position: relative;
+    width: 300px;
+    height: 50px;
+    margin: 50px auto;
+    border: 5px solid #ff8c00;
+    overflow: hidden;
+}
+
+@keyframes loading {
+    from {
+        left: -50px;
+    }
+
+    to {
+        left: 300px;
+    }
+}
+
+.loader-square {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    background-color: #ff8c00;
+    animation: loading 1s linear infinite;
+}
